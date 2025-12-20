@@ -11,8 +11,8 @@ import google.generativeai as genai
 from tqdm import tqdm
 
 # Initialize Gemini
-genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
-model = genai.GenerativeModel('gemini-2.0-flash')
+genai.configure(api_key="AIzaSyCFVXd3ekKSzV99iFzK-tZhRj0wIA6Ll1w")
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 def generate_pairs_batch(chapter_text, chapter_title, batch_size=100):
     """Generate a batch of instruction-output pairs from chapter text"""

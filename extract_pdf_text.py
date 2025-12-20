@@ -55,7 +55,7 @@ def extract_text_from_pdf(pdf_path, output_path):
 
 if __name__ == "__main__":
     # PDF file path
-    pdf_file = r"C:\Users\amrit\Desktop\ernie-memories-project\From Emperor to Citizen_ The Autobiography of Aisin-Gioro Pu -- ____ -- 401643b625aea088e5002d3c35e6d7.pdf"
+    pdf_file = r"C:\Users\amrit\Desktop\ernie-memories-project\From Emperor to Citizen - The Autobiography of Aisin-Gioro -- Aisin-Gioro Pu Yi -- 1983 -- Foreign Lan.pdf"
     
     # Output text file
     output_file = r"C:\Users\amrit\Desktop\ernie-memories-project\emperor_to_citizen_text.txt"
